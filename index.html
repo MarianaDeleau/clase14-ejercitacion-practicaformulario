@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computrabajo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form class="container">
+            <h1>Mi Currículum</h1>
+            <section class="container2">
+                <h2>Datos Personales</h2>
+                    <div class="datos">
+                        <div class="linea">
+                            <label for="idNombre">Nombre<sup>*</sup></label>
+                            <input type="text" id="idNombre" maxlength="40" placeholder="Nombre">
+                        </div>
+                        <div class="linea">
+                            <label for="idApellidos">Apellidos<sup>*</sup></label>
+                            <input type="text" id="idApellidos" maxlength="40" placeholder="Apellidos">
+                        </div>
+                        <div class="linea">
+                            <label for="IdIdentificacion">Tipo de Identificación<sup>*</sup></label>
+                            <select id="IdIdentificacion">
+                                <option value="DNI">DNI</option>
+                                <option value="LC">Libreta Cívica</option>
+                                <option value="LE">Libreta de Enrolamiento</option>
+                            </select>
+                            <input type="text" size="10">
+                        </div>
+                        <div class="linea">
+                            <label for="IdDiaNacimiento">Fecha de nacimiento<sup>*</sup></label>
+                            <select id="IdDiaNacimiento">
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="17">17</option>
+                            </select>
+                            <select id="IdMesNacimiento">
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                            </select>
+                            <select id="IdAnoNacimiento">
+                                <option value="1867">1867</option>
+                                <option value="1901">1901</option>
+                                <option value="1938">1938</option>
+                            </select>
+                        </div>
+                        <div class="linea">
+                            <label>Género<sup>*</sup></label>
+                            <div class="radio">
+                                <input id="idHombre" name="Genero" type="radio" value="1"/>
+                                <label for="idHombre">Hombre</label>
+                                <input id="idMujer" name="Genero" type="radio" value="2"/>
+                                <label for="idMujer">Mujer</label>
+                            </div>
+                        </div>
+                        <div class="linea">
+                            <label for="IdEstadoCivil">Estado Civil<sup>*</sup></label>
+                            <select id="IdEstadoCivil">
+                                <option value="So">Soltero</option>
+                                <option value="Ca">Casado</option>
+                                <option value="Di">Divorciado</option>
+                            </select>                        
+                        </div>
+                    </div>
+            </section>
+    </form>
+        
+
+
+
+    
+</body>
+</html>
